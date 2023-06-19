@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://phonoteka.org/uploads/posts/2021-06/1624027521_49-phonoteka_org-p-ataka-titanov-oboi-na-rabochii-stol-krasiv-54.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+.input{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+.form-box{
+    height: 400px;
+}
+input{
+    padding: 30px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    margin: 20px;
+}
+
+input::placeholder {
+    margin-top: 15px;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"]
+{
+    font-size:24px;
+}
+button{
+    padding: 20px;
+    background-color: black;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    transition: 3s;
+    margin-top: 40px;
+    border: none;
+}
+button a{
+    color: #fff;
+}
+button:hover{
+    background-color: pink;
+}
+.registration , button{
+    margin-left: 40px;
+}
+
+.registration{
+    font-size: 20px;
+    margin-top: 20px;
+    color: antiquewhite;
+}
+.registration a{
+    color: #fff;
+    transition: 1.3s;
+}
+.registration a:hover{
+    color: red;
+}

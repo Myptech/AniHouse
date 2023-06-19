@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniHouse</title>
+    <link rel="stylesheet" href="./styles/ligth.css" id="theme">
+
+</head>
+<body>
+   <nav class="navbar" id="nav_bar">
+    <div class="navbar_logo">
+        <span>AniHouse</span>
+    </div>
+    <div class="navbar_btns">
+        <a href="#" class="navbar_btn">Home</a>
+        <a href="#about" class="navbar_btn">About</a>
+        <a href="#characters" class="navbar_btn">Chapters</a>
+        <a href="#sinopsis" class="navbar_btn">Синопсис</a>
+        <a href="#mnenia" class="navbar_btn">Ваше мнение</a>
+    </div>
+    <div class="switch">
+        <button id="switch_mode" class="navbar_btn_swicth">Theme</button>
+    </div>
+   </nav>
+
+   <header class="bg">
+    <div class="bg_container">
+        <div class="header_text">
+            <h1><b>Welcome to AniHouse.</b>Здесь вы сможете подробнее узнать о манге <br> "Атака титанов" </h1>
+        </div>
+        <div class="bg_video"  >
+            <video autoplay muted loop id="background">
+                <source src="./imgs/bg.mp4" type="video/mp4">
+            </video>
+        </div>
+     
+    </div>
+
+   </header>
+
+<div class="section_about" id="about">
+    <div class="about_container">
+        <div class="about_text">
+            <h1>About Manga</h1>
+            <h5>«Атака титанов» (яп. 進撃の巨人) — японский художественный фильм, <br> выпущенный на основе манги Хадзимэ Исаямы «Атака на титанов». Фильм разделён на две части, <br> первая часть выпущена в Японии 1 августа <br> 2015 года, а вторая часть под названием «Атака титанов: Конец света» <br> (яп. 進撃の巨人 エンド オブ ザ ワールド Shingeki no Kyojin: Endo obu za Wārudo) — 19 сентября 2015 года.</h5>
+        </div>
+    </div>
+
+</div>
+<section class="watch">
+    <div class="watch_left">
+        <div class="card">
+            <img src="./imgs/character.png" alt="">
+        </div>
+    </div>
+    <div class="watch_right">
+        <h1>Сейчас время для Аниме</h1>
+        <div class="watch_btns">
+            <a href="./log_container/log_in.html"><button class="w_btn transparent">Логин</button></a>
+            <a href="./log_container/register.html"><button class="w_btn normal ">Зарегестрироваться</button></a>
+        </div>
+    </div>
+</section>
+<section class="characters" id="characters">
+    <div class="container">
+        <div class="character_text">
+            <h1>Characters</h1>
+            <p>Персонажи</p>
+            <h6>Всего 216 персонажев но я остановлюсь на 8</h6>
+        </div>
+        <div class="character_cards">
+            <div class="character_cards1">
+                <div class="character_card">
+                    <img src="./imgs/image1.webp" alt="">
+                    <h1>Эрен Йегер</h1>
+                    <p>Я убью их всех! <br> Я сотру каждого из них с лица этой земли! <br>
+                        <br>— Клятва Эрена</p>
+                </div>
+                <div class="character_card character_card_width ">
+                    <img src="./imgs/image2.webp" alt="">
+                    <h1>Леви Аккерман</h1>
+                    <p>Я хочу положить конец этому <br> повторяющемуся кошмару прямо <br> сейчас. Есть те, кто встанет у меня на <br> пути. Но я отлично играю роль сумасшедшего, <br> который убивает таких людей. <br> Я должен быть готов устранить их. <br> Потому, что я <br> предпочитаю аду людей, <br> убивающих друг друга, аду быть съеденным. <br>
+                      <br>  — Леви объясняет свои мысли команде</p>
+                </div>
+                <div class="character_card">
+                    <img src="./imgs/image3.webp" alt="">
+                    <h1>Микаса Аккерман</h1>
+                </div>
+                <div class="character_card">
+                    <img src="./imgs/image4.webp" alt="">
+                    <h1>Зик Йегер</h1>
+                    <p>Я просто хочу, чтобы слабых, уносимых <br> течением вдаль, тоже считали людьми.	
+                       <br> — Энни говорит Марло Фройденбергу</p>
+                </div>
+            </div>
+            <div class="character_cards2">
+                <div class="character_card">
+                    <img src="./imgs/image5.webp" alt="">
+                    <h1>Армин Арлерт</h1>
+                    <p> Чтобы победить чудовище, <br> нужно отбросить человечность. <br> Тот, кто не может чем-то пожертвовать, <br> никогда ничего не изменит.
+                        <br><br>— Размышления Армина  <br> во время битвы Эрена и Энни.</p>
+                </div>
+                <div class="character_card">
+                    <img src="./imgs/image6.webp" alt="">
+                    <h1>Имир</h1>
+                    <p>Криста... Я не могу указывать <br> тебе, как жить... <br> так что это просто... моя просьба. <br> Живи своей жизнью... <br> с гордостью.
+                        <br>— Имир Кристе, перед раскрытием <br> своих сил титана.</p>
+                </div>
+                <div class="character_card character_card_width">
+                    <img src="./imgs/image7.webp" alt="">
+                    <h1>Райнер Браун</h1>
+                    <p>В тот день, когда съели Марселя, Энни и Бертольд хотели отказаться от операции, и отступить. А я убедил их действовать не смотря на их нежелание и продолжить операцию. Мне не хотелось погибать, но я очень хотел стать героем. По этой же причине я корчил из себя старшего брата. Я хотел самоутвердиться. Всё это произошло не из-за оркужения, в котором я рос. Виноват лично я! Твою мать съели по моей вине. Я сам себе отвратителем. Убей меня. Я хочу исчезнуть.
+                       <br> — Райнер во время беседы с Эреном</p>
+                </div>
+                <div class="character_card character_card_width">
+                    <img src="./imgs/image8.webp" alt="">
+                    <h1>Энни Леонхарт</h1>
+                    <p>	Я просто хочу, чтобы слабых, уносимых течением вдаль, тоже считали людьми.
+                        <br>— Энни говорит Марло Фройденбергу.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sinopsis" id="sinopsis"> <div class="sinopsis_cont">
+<h1>Синопсис</h1>
+ <div class="sin_text"> 
+<h3 class="sinopsis_h3">
+• Вместо прогресса человечество оказалось отброшено назад с появлением титанов. Огромные
+гуманоиды не обладали речью или разумом,  а следовали лишь одному животному
+инстинкту — охоте на людей.  Оружие уровня XIX—того века было бессильно против 
+них.  Остатки рода людского смогло выжить лишь за стенами, которые тройным
+кольцом опоясывали поля, города и деревни. Затишье продолжалось около ста лет.
+За это время люди успели позабыть об угрозе по ту сторону стен. И лишь солдаты
+Разведкорпуса продолжали рисковать своими жизнями в надежде освободить
+человечество от этих существ. Но мирное сосуществование не могло продолжаться
+долго. Внезапная атака титана, сокрушившего стену Мария, привела за собой
+гибель мирного населения города Шиганшина. Мать юного героя погибла на его
+глазах, а отец числился без вести пропавшим. Питаемый жаждой мести, принимает
+решение вступить в ряды Разведкорпуса, чьи элитные бойцы уже давно ведут войну
+с этими существами. Но учиться приходится быстро, ибо идёт война, а действия
+врага становятся всё агрессивнее. Ему самому и его товарищам предстоит открыть
+немало пугающих тайн ...</h3>
+ </div>
+        
+     </div>
+</section>
+
+
+   <section class="trailer">
+    <div class="trailer_text">
+        <h1>Долгожданный трейлер финального сезона!</h1>
+    </div>
+    <div class="cont_trailer">
+        <div class="trailer_left">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/r7MosyoAUhQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="trailer_right">
+            <h1>Вот вам и финальная часть Атака титанов </h1>
+            <p>Надеюсь вам понравилсь финальная часть.Если вам не понравилось <br> данная часть то напишите свое мнение . Ваши мнения будут учтены</p>
+            <button class="trailer_btn transparent"> <a href="#mnenia">Написать отзыв</a></button>
+        </div>
+    </div>
+   </section>
+
+
+
+   <section class="mnenia" id="mnenia">
+    <div class="cont">
+        
+    <div class="mnenia_text">
+        <h1>Ваше мнение о сайте и ваши предпочтения</h1>
+    </div>
+    <div class="mnenia_input">
+        <input type="text" name="pers_text" id="pers_text" placeholder="Ваше мнения и предпочтения">
+        <button class="footer_btn" id="change-text2">Submit</button>
+    </div>
+    </div>
+   </section>
+
+
+
+
+
+<footer>
+    <div class="footer_left">
+        <h1>AniHouse</h1>
+        <p>AniHouse это сайт где вы можете ознакомиться с этой Мангой</p>
+        <p>AniHouse 2023.All rights reserved (Hakaton) </p>
+    </div>
+    <div class="footer_right">
+        <div class="footer_list">
+            <h4>Recoucers</h4>
+            <ul>
+                <li><a href="#">Copyright</a></li>
+                <li><a href="#">Watch togetger</a></li>
+                <li><a href="#">Anime Hub</a></li>
+                <li><a href="#">Online </a></li>
+            </ul>
+        </div>
+        <div class="footer_list footer_email">
+            <h4>Have Question?</h4>
+            <input type="email" name="pers_email" id="pers_email" placeholder="Your email">
+            <button class="footer_btn" id="change-text">Submit</button>
+        </div>
+        <div class="footer_list">
+            <img src="./imgs/whatsap.png" alt="">
+            <img src="./imgs/tiktok.png" alt="">
+            <img src="./imgs/youtube.png"  >
+        </div>
+
+    </div>
+</footer>
+
+
+<div class="audio_control">
+    <audio autoplay controls>
+        <source  src="./ьгышс/Hiroyuki Sawano - 2Chijou.mp3" type="audio/ogg;">
+    </audio>
+</div>
+   <script src="./scripts/script.js"></script>
+</body>
+</html>
